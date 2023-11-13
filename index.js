@@ -27,3 +27,8 @@ app.use(cors());
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
+
+
+app.get('/api', (req,res) => {
+  res.json({result: 'connected'})
+})
