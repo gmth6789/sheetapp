@@ -1,6 +1,7 @@
 {
   "name": "sheetapp",
   "version": "1.0.0",
+  "type": "module",
   "description": "> Express: fast, unopinionated, minimalist web framework for Node.js",
   "main": "index.js",
   "dependencies": {
