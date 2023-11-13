@@ -6,6 +6,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const line = require('@line/bot-sdk');
+const Register = require('./register');
 
 
 const config = {
@@ -35,5 +36,5 @@ app.get('/api', (req,res) => {
 
 
 app.post('/api/register', (req,res) => {
-  
+  Register
 })
