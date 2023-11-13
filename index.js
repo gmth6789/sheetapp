@@ -31,4 +31,9 @@ app.listen(port, () => {
 
 app.get('/api', (req,res) => {
   res.json({result: 'connected'})
+});
+
+
+app.post('/api/register', (req,res) => {
+  
 })
